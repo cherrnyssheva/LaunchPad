@@ -1,7 +1,7 @@
-{% extends "blog/base_blog" %}
+{% extends "blog/base_blog.html" %}
 
 {% block title %}
-{{ block.super }} - Post detail
+ Post detail
 {% endblock %}
 
 <article>
@@ -48,4 +48,3 @@
   </footer>
   {% endif %}
 </article>
-{% endblock%}

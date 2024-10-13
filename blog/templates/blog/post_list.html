@@ -1,4 +1,4 @@
-{% extends "blog/base_blog" %}
+{% extends "blog/base_blog.html" %}
 
 {% block title %}
 {{ block.super }} - Post list
@@ -25,4 +25,3 @@
 {% empty %}
 <p><em>No Blog Posts Available</em></p>
 {% endfor %}
-{% endblock %}
